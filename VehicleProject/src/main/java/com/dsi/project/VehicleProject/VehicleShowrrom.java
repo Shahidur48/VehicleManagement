@@ -40,7 +40,7 @@ abstract class Vehicle implements ShowroomDelegate
   
   @Override
   public void removeFromShowroom(Showroom showroom) {
-    showroom.vehicles.remove(this);it
+    showroom.vehicles.remove(this);
   }
 }
 
